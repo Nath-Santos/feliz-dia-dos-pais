@@ -1,0 +1,8 @@
+# feliz-dia-dos-pais
+import datetime 
+def    is_fathers_day(): 
+       today= datetime.date.today() 
+       return (today.month==8 and today.month ==8 and today.weekday() == 6 and 7<= today.day <= 14)
+if is_fathers_day():
+    
+print("Feliz dia dos Pais!")
